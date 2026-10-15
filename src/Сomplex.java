@@ -1,5 +1,3 @@
-package src;
-
 public class Complex {
 
     private static final double EPS = 1e-9;
