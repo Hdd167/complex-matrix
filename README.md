@@ -65,15 +65,6 @@ complex-matrix/
 
 ## Сборка и запуск
 
-Из корня проекта:
-
-```bash
-javac -encoding UTF-8 -d out src/Complex.java src/ComplexMatrix.java src/Main.java
-java -cp out src.Main
-```
-
-Если нужно запустить без пакета, удалите строки `package src;` из всех
-трёх файлов и соберите так:
 
 ```bash
 javac -encoding UTF-8 -d out src/*.java
